@@ -38,7 +38,7 @@
         $('.timer').syotimer({
             year: 2020,
             month: 12,
-            day: 9,
+            day: 20,
             hour: 20,
             minute: 30
         });

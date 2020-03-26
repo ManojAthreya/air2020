@@ -296,6 +296,12 @@ button:hover {
   background-position: center center;
 }
 
+.bg1-title {
+  background: black no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .section {
   padding: 90px 0;
 }
@@ -788,6 +794,42 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .page-title .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #fff;
+}
+
+.page-title1 {
+  position: relative;
+  padding: 10px 0 10px;
+}
+
+.page-title1 h3, .page-title1 li, .page-title1 a {
+  color: #fff;
+}
+
+.page-title1 .title1 h3 {
+  font-weight: 500;
+  text-transform: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+.page-title1 .breadcrumb {
+  background: transparent;
+}
+
+.page-title1 .breadcrumb .breadcrumb-item {
+  float: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.page-title1 .breadcrumb .breadcrumb-item.active {
+  color: #fff;
+}
+
+.page-title1 .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   content: "\f105";
   font-family: FontAwesome;
   color: #fff;
